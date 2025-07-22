@@ -7,16 +7,16 @@ __pycache__/
 venv/
 
 # Datos
-data/raw/
-data/processed/
-*.csv
+#data/raw/
+#data/processed/
+#*.csv
 
 # Models
 *.pkl
 *.joblib
 
 # MLflow
-mlruns/
+#mlruns/
 
 # Logs 
 *.log

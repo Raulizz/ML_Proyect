@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/raaul/OneDrive/Desktop/ML_Proyect/mlruns/824167236554378928/07b4fa3c054940339a543c5bc56205d8/artifacts
+end_time: 1753123151950
+entry_point_name: ''
+experiment_id: '824167236554378928'
+lifecycle_stage: active
+run_id: 07b4fa3c054940339a543c5bc56205d8
+run_name: prueba_2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753123145138
+status: 3
+tags: []
+user_id: raaul

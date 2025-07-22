@@ -4,14 +4,14 @@ import mlflow.pyfunc
 import pandas as pd
 
 # Run FastAPI
+
 app = FastAPI(title="Predictive Maintenance API")
 
 # Load the model from MLflow
 
 RUN_ID = "07b4fa3c054940339a543c5bc56205d8" 
-#MODEL_URI = f"runs:/{RUN_ID}/model"
-#model = mlflow.pyfunc.load_model(MODEL_URI)
-model = mlflow.xgboost.load_model("prod_model/model")
+MODEL_URI = f"runs:/{RUN_ID}/model"
+model = mlflow.pyfunc.load_model(MODEL_URI)
 
 # Define the input schema
 class InputData(BaseModel):
@@ -30,6 +30,7 @@ class InputData(BaseModel):
     model_model4: int
 
 # The endpoint is created (/predict)
+
 import logging
 logging.basicConfig(level=logging.INFO)
 
