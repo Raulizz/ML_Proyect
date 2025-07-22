@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *.ipynb_checkpoints/
 
-# Entorno virtual
+# virtual env
 venv/
 
 # Datos
@@ -11,14 +11,14 @@ data/raw/
 data/processed/
 *.csv
 
-# Modelos
+# Models
 *.pkl
 *.joblib
 
 # MLflow
 mlruns/
 
-# Logs y otros
+# Logs 
 *.log
 
 # Docker
@@ -29,6 +29,6 @@ mlruns/
 .vscode/
 .idea/
 
-# Notebooks temporales
+# Notebooks temp
 *.checkpoint.ipynb
 
